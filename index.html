@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Product preview card component</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      html,
+      body {
+        height: 100%;
+        width: 100%;
+        box-sizing: border-box;
+        background-color: rgb(215, 253, 217);
+      }
+      .container {
+        height: 400px;
+        width: 550px;
+        border-radius: 10px;
+        background-color: white;
+        font-family: "Montserrat", sans-serif;
+        display: flex;
+        margin: auto;
+        margin-top: 170px;
+      }
+      .container img {
+        border-radius: 10px;
+      }
+      .second {
+        font-size: 10px;
+        padding: 5px 13px;
+        padding-left: 15px;
+      }
+      .second * {
+        padding: 5px;
+      }
+      .topheading {
+        font-size: x-small;
+        font-family: "Montserrat", sans-serif;
+      }
+      h1 {
+        font-size: 25px;
+        font-family: "Fraunces", serif;
+        font-weight: 1200;
+      }
+      section p {
+        font-family: "Montserrat", sans-serif;
+        font-size: 12px;
+      }
+      .pricing {
+        font-family: "Fraunces", serif;
+        color: rgb(77, 161, 77);
+        font-size: 25px;
+      }
+      .btn {
+        background-color: rgb(71, 148, 71);
+        color: white;
+        width: 150px;
+        height: 35px;
+        border: 0px;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img id="main-image" src="./images/image-product-desktop.jpg" />
+      <section class="second">
+        <p class="topheading">PERFUME</p>
+        <h1>Gabrielle<br />Essence Eau<br />De Parfum</h1>
+        <p>
+          A floral solar and voluptuous interpretation composec by olivier polge
+          perfume creator for the house of CHANEL.
+        </p>
+        <p class="pricing">$149.99</p>
+        <button class="cart btn">Add to Cart</button>
+      </section>
+    </div>
+  </body>
+</html>
